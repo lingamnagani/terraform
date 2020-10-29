@@ -8,6 +8,6 @@ provider "azurerm" {
 }
 #create resource group
 resource "azurerm_resource_group" "rg" {
-    name     = "${var.sampledemo321}"
-    location =  "${var.location}"
+    name     = sampledemo
+    location = uk south
 }
