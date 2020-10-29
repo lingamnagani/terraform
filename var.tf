@@ -4,15 +4,15 @@ variable "sampledemo321" {
 variable "location" {
     type = string
 }
-variable "subscriptionid " {
+variable "subscriptionID " {
     type = string
 }
-variable "clientid" {
+variable "clientID" {
     type = string
 }
 variable "clientsecret" {
     type = string
 }
-variable "tenantid" {
+variable "tenantID" {
     type = string
 }
