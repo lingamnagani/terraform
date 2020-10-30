@@ -7,7 +7,7 @@ provider "azurerm" {
   client_secret   = "Q.6T.cupE5SH.FBuvl1awMwd_n998O4N1w"
 }
 #create resource group
-resource "azurerm_resource_group" "kg" {
+resource "azurerm_resource_group" "testing" {
     name     = "var.testing"
     location = "var.location"
 }
