@@ -9,5 +9,5 @@ provider "azurerm" {
 #create resource group
 resource "azurerm_resource_group" "rg" {
     name     = "var.testing"
-    location = "var.Canada Central"
+    location = "var.location"
 }
